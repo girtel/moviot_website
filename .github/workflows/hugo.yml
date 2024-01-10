@@ -97,36 +97,36 @@ jobs:
         uses: actions/deploy-pages@v2
 
           # Deployment job
-  deploy-girtel-sv:
-    name: Server Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: 📥 Download artifact
-        uses: actions/download-artifact@v3
-      - name: ⚙ Process artifact
-        run: |
-          cd github-pages
-          mkdir ../public
-          tar -xvf artifact.tar -C ../public
-      - name: 🔑 Install SSH Key
-        run: |
-          install -m 600 -D /dev/null ~/.ssh/id_rsa
-          echo "${{ secrets.KEY }}" > ~/.ssh/id_rsa
-          echo "${{ secrets.KNOWN_HOSTS }}" > ~/.ssh/known_hosts
-
-      - name: 🚀 Deploy
-        run: |
-          rsync --archive --delete --stats -e 'ssh -p ${{ secrets.PORT }}' './public/' ${{ secrets.REMOTE_DEST }}
-  
-  notify:
-    name: Notify
-    needs: [deploy-girtel-sv, deploy-gh-pages]
-    runs-on: ubuntu-latest
-    steps:
-      - name: 📤 Telegram Notification
-        run: |
-          curl -X POST \
-           -H 'Content-Type: application/json' \
-           -d '{"chat_id": "${{ secrets.TELEGRAM_TO }}", "text": "🌏 WILLIOT website has been updated.\nhttps://williot.girtel.es", "disable_notification": false}' \
-           https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendMessage
+#  deploy-girtel-sv:
+#    name: Server Deploy
+#    needs: build
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: 📥 Download artifact
+#        uses: actions/download-artifact@v3
+#      - name: ⚙ Process artifact
+#        run: |
+#          cd github-pages
+#          mkdir ../public
+#          tar -xvf artifact.tar -C ../public
+#      - name: 🔑 Install SSH Key
+#        run: |
+#          install -m 600 -D /dev/null ~/.ssh/id_rsa
+#          echo "${{ secrets.KEY }}" > ~/.ssh/id_rsa
+#          echo "${{ secrets.KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+#
+#      - name: 🚀 Deploy
+#        run: |
+#          rsync --archive --delete --stats -e 'ssh -p ${{ secrets.PORT }}' './public/' ${{ secrets.REMOTE_DEST }}
+#  
+#  notify:
+#    name: Notify
+#    needs: [deploy-girtel-sv, deploy-gh-pages]
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: 📤 Telegram Notification
+#        run: |
+#          curl -X POST \
+#           -H 'Content-Type: application/json' \
+#           -d '{"chat_id": "${{ secrets.TELEGRAM_TO }}", "text": "🌏 WILLIOT website has been updated.\nhttps://moviot.girtel.es", "disable_notification": false}' \
+#           https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendMessage
