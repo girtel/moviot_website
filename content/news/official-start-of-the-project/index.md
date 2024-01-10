@@ -1,9 +1,9 @@
 ---
 title: Official start of the project
-date: 2023-07-01
+date: 2024-01-01
 draft: false
 ---
 
-The WILLIOT project has officially started.
+The MovIoT project has officially started.
 
 <!--more-->
