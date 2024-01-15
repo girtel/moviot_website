@@ -9,7 +9,7 @@ weight: 10 # Order that this section will appear.
 active: true
 title: |
   Development of mobile IoT solution for monitoring environmental conditions (MovIoT)
-subtitle: Actividad 22228/PDC/23 financiada por la ComunidadAutónoma de la Región de Murcia a través del Programa Regional de Apoyo a la Transferencia y Valorización del Conocimiento y el Emprendimiento Científico de la Fundación Séneca-Agencia de Ciencia y Tecnología de la Región de Murcia.
+subtitle: Activity 22228/PDC/23 financed by the Region of Murcia through the Regional Program of Support for the Transfer and Valorization of Knowledge and Scientific Entrepreneurship of the Seneca Foundation - Science and Technology Agency of the Region of Murcia.
 image_title: moviot.png
 image_height: 300px
 design:
