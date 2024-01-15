@@ -1,21 +1,21 @@
 ---
 # Display name
-title: Jesús Rubio
+title: Jesús Rubio Aparicio
 stud: Ph.D.
 # Is this the primary user of the site?
 superuser: false
 
-weight: 5
+weight: 2
 
 # Role/position
-role: Postdoctoral Researcher <br> (Contracted Invstigator)
+role: Postdoctoral Researcher <br> (Hired Researcher)
 
 # Organizations/Affiliations
 #organizations:
 #  - name: Stanford University
 #    url: ''
 
-externalLink: "#"
+externalLink: "https://personas.upct.es/perfil/jesus.rubio"
 openExternalLinkInNewTab: false
 
 # Social/Academic Networking
@@ -30,7 +30,7 @@ social:
   - icon: phone
     icon_pack: fa
     name: 'Phone'
-    link: 'tel:+34968325952'
+    link: 'tel:+34968338946'
   #- icon: twitter
   #  icon_pack: fab
   #  link: https://twitter.com/GeorgeCushen

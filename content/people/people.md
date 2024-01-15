@@ -20,13 +20,13 @@ content:
 
 design:
   show_interests: false
-  show_role: false
-  show_social: false
+  show_role: true
+  show_social: true
   show_image: true
   show_link: true
   bootstrapcol: 4
 ---
 
-The project is developed within the Technical University of Cartagena, in the [Telecommunication Networks Engineering Group](https://girtel.upct.es)
+The project is developed within the [Technical University of Cartagena](https://upct.es), in the [Telecommunication Networks Engineering Group](https://girtel.upct.es)
 
 <br>

@@ -5,7 +5,7 @@ stud: Ph.D.
 # Is this the primary user of the site?
 superuser: false
 
-weight: 2
+weight: 4
 
 # Role/position
 role: Full Professor <br> (Professor of University)
@@ -15,7 +15,7 @@ role: Full Professor <br> (Professor of University)
 #  - name: Stanford University
 #    url: ''
 
-externalLink: "#"
+externalLink: "https://personas.upct.es/perfil/pablo.pavon"
 openExternalLinkInNewTab: false
 
 # Social/Academic Networking

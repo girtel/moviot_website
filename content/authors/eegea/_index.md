@@ -5,17 +5,17 @@ stud: Ph.D.
 # Is this the primary user of the site?
 superuser: false
 
-weight: 1
+weight: 3
 
 # Role/position
-role: Associate Professor <br> (University Head)
+role: Associate Professor <br> (University Lecturer)
 
 # Organizations/Affiliations
 #organizations:
 #  - name: Stanford University
 #    url: ''
 
-externalLink: "#"
+externalLink: "https://personas.upct.es/perfil/esteban.egea"
 openExternalLinkInNewTab: false
 
 # Social/Academic Networking
@@ -30,7 +30,7 @@ social:
   - icon: phone
     icon_pack: fa
     name: 'Phone'
-    link: 'tel:+34968325952'
+    link: 'tel:+34968326553'
   #- icon: twitter
   #  icon_pack: fab
   #  link: https://twitter.com/GeorgeCushen

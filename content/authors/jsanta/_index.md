@@ -8,14 +8,14 @@ superuser: false
 weight: 1
 
 # Role/position
-role: PhD. Senior Researcher <br> (University Head)
+role: PhD. Senior Researcher <br> (University Lecturer)
 
 # Organizations/Affiliations
 #organizations:
 #  - name: Stanford University
 #    url: ''
 
-externalLink: "#"
+externalLink: "https://personas.upct.es/perfil/jose.santa"
 openExternalLinkInNewTab: false
 
 # Social/Academic Networking
@@ -30,7 +30,7 @@ social:
   - icon: phone
     icon_pack: fa
     name: 'Phone'
-    link: 'tel:+34968325952'
+    link: 'tel:+34868071063'
   #- icon: twitter
   #  icon_pack: fab
   #  link: https://twitter.com/GeorgeCushen
