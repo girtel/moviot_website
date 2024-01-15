@@ -11,7 +11,7 @@ banner:
 ---
 
 <div style="text-align: center">
-Papers and documents published in frames of the MovIoT project
+Papers and documents published in frame of the MovIoT project
 </div>
 <br>
 

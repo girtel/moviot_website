@@ -56,7 +56,7 @@ design:
 ---
 
 <div style="text-align: center"> 
-<a href="mailto:jose.santa@upct.es">Jose Santa</a>
+<a href="https://personas.upct.es/perfil/jose.santa">José Santa</a>
 <h1>Email</h1>
 <a href="mailto:jose.santa@upct.es">jose.santa@upct.es</a>
 <h1>Postal Address</h1>

@@ -8,7 +8,7 @@ superuser: false
 weight: 5
 
 # Role/position
-role: Associate Professor <br> (University Head)
+role: Associate Professor <br> (University Lecturer)
 
 # Organizations/Affiliations
 #organizations:

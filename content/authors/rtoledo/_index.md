@@ -8,7 +8,7 @@ superuser: false
 weight: 6
 
 # Role/position
-role: Full Professor <br> (Vice Rector for Internationalization and European University)
+role: Full Professor <br> (vice Chancellor for Internationalization and European University)
 
 # Organizations/Affiliations
 #organizations:
