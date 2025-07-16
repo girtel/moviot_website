@@ -1,9 +1,6 @@
 ---
 title: Deployment and evaluation of the MovIoT solution
 date: 2025-06-20
-images:
-    - featured1.jpg
-    - featured2.jpg
 draft: false
 abstract: "Deployment of a small batch series of assembled onboard units is taking place in diverse personal mobility vehicles, such as scooters and bicycles, to check the right operation and robustness of the new units as well as to validate the complete solution.
 
